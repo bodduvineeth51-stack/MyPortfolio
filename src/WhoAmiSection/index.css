@@ -1,0 +1,95 @@
+.about-section {
+  background: #000;
+  color: white;
+  padding: 120px 60px;
+}
+
+/* TOP TEXT */
+.about-top h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-top h1 span {
+  color: #00c2c2; /* cyan highlight */
+}
+
+.about-top p {
+  max-width: 600px;
+  font-size: 16px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+/* CARDS GRID */
+.about-cards {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* CARD BASE */
+.card {
+  padding: 40px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* CARD 1 - TEAL */
+.card-education {
+  background: linear-gradient(135deg, #00c2c2, #008b8b);
+  color: #000;
+}
+
+/* CARD 2 - LIGHT */
+.card-skills {
+  background: #eaeaea;
+  color: #000;
+}
+
+/* CARD 3 - DARK */
+.card-freelance {
+  background: #111;
+  border: 1px solid #333;
+}
+
+/* TEXT */
+.card h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.skills-list {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.skills-list li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: inherit;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .about-top h1 {
+    font-size: 40px;
+  }
+}

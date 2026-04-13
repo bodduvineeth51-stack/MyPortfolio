@@ -1,0 +1,250 @@
+.projects-section {
+  background: #000;
+  color: white;
+  padding: 120px 60px;
+}
+
+/* 🔥 HEADER */
+.projects-header h1 {
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+
+.projects-header span {
+  color: #00d1c7; /* same cyan theme */
+}
+
+/* LAYOUT */
+.project-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/* 🔥 IMAGE CAROUSEL FIX */
+.project-images {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.image-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image-slider img {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+
+/* BUTTONS */
+.slider-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.slider-buttons button {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* CONTENT */
+.project-meta {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.project-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.project-desc {
+  color: #aaa;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project-content li {
+  margin-bottom: 8px;
+}
+
+/* TAGS */
+.project-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.project-tags span {
+  background: #111;
+  border: 1px solid #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* BUTTON */
+.view-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.view-btn:hover {
+  background: white;
+  color: black;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .project-container {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-header h1 {
+    font-size: 40px;
+  }
+}.projects-section {
+  background: #000;
+  color: white;
+   padding: 80px 80px 40px
+}
+
+/* 🔥 HEADER */
+.projects-header h1 {
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+
+.projects-header span {
+  color: #00d1c7; /* same cyan theme */
+}
+
+/* LAYOUT */
+.project-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/* 🔥 IMAGE CAROUSEL FIX */
+.project-images {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.image-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image-slider img {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+
+/* BUTTONS */
+.slider-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.slider-buttons button {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* CONTENT */
+.project-meta {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.project-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.project-desc {
+  color: #aaa;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project-content li {
+  margin-bottom: 8px;
+}
+
+/* TAGS */
+.project-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.project-tags span {
+  background: #111;
+  border: 1px solid #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* BUTTON */
+.view-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.view-btn:hover {
+  background: white;
+  color: black;
+}
+.project-container {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #222;
+}
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .project-container {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-header h1 {
+    font-size: 40px;
+  }
+}

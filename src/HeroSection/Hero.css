@@ -1,0 +1,70 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: black;
+}
+
+/* 🔥 IMAGE (PERFECT CENTER + ZOOM) */
+.hero-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /* 🔥 KEY CHANGE */
+  width: 140%;
+  height: 140%;
+
+  transform: translate(-50%, -50%);
+
+  object-fit: cover;
+
+  /* 🔥 FACE CENTER */
+  object-position: center;
+
+  filter: grayscale(100%) contrast(110%);
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+/* TEXT */
+.marquee {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation: scroll 12s linear infinite;
+}
+
+.track h1 {
+  font-size: 150px; /* 🔥 BIG LIKE REFERENCE */
+  font-weight: 700;
+  color: white;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+/* ANIMATION */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,63 @@
+.contact-section {
+  background: #000;
+  color: white;
+  
+  padding: 60px 80px;
+
+}
+
+/* 🔥 HEADING SAME AS ABOUT */
+.contact-heading {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-heading span {
+  color: #00d1c7;
+}
+
+/* INTRO */
+.contact-intro {
+  font-size: 18px;
+  color: #aaa;
+  max-width: 700px;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  color: #ddd;
+}
+
+/* SOCIAL LINKS */
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: white;
+  border: 1px solid #333;
+  padding: 14px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #00d1c7;
+  color: black;
+}
